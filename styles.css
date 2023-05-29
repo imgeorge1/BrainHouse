@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 0%;
+    font-family: sans-serif;
+}
+
+.card{
+    height: 100vh;
+    background-color:  #D2CFEE;
+}
+
+.subheader{
+    padding-top: 5px;   
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+hr{
+    border: none;
+    border-top: 2px solid #d9d7ee;
+
+}
+
+/* header */
+
+.logo{
+    display: flex;
+    padding-top: 14px;
+    justify-content: space-around;
+}
+
+.logo2{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.header{
+    background-color: #9086EB;
+}
+
+.logoimg{
+    width: 80px;
+    height: 45px;
+    float: left;
+}
+
+h1{
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.topnav {
+    background-color:  #9086EB;
+    overflow: hidden;
+    flex-wrap: wrap;
+    display: inline-flex;
+    justify-content: flex-end;
+    font-weight: 900;
+}
+
+  
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.topnav a:hover {
+    background-color: #7a72c5;
+    color: white;
+    border-radius: 10%;
+}
+  
+.topnav a.active {
+    background-color: #423D6B;
+    color: white;
+}
+
+
+
+/*  dropdown   */
+
+.dropbtn {
+    background-color: #9086EB;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    border-radius: 15%;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #7a72c5;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    visibility: hidden;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: #9086EB;
+    font-weight: 900;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+
+  
+
+  @media (max-width: 768px) {
+    .dropdown{
+        visibility: visible;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 22px;
+        padding-bottom: 16px;
+    }
+    .topnav {
+        visibility: hidden;
+    }
+    .logo{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .logo2{
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
+  }
+
+  
+  @media (max-width: 320px) {
+    h1{
+        font-size: 32px;
+    }
+    .logoimg{
+        width: 75px;
+        height: 40px;
+    }
+  }
+
+/*   about    */
+.center2{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.banner1{
+    width: 25rem;
+    height: 18rem;
+    float: right;
+    padding-top: 120px;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info p{
+    width: 500px;
+}
+
+
+
+
+
+/*   offer   */
+
+
+
+/*   courses   */
+.center2{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.banner3{
+    width: 25rem;
+    height: 18rem;
+    float: right;
+    padding-top: 120px;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info p{
+    width: 500px;
+}
+
+/*   bottom    */
+
+.end{
+    background-color: #9086EB;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fblink{
+    width: 48px;
+}
+.fbdiv{
+    position: absolute;
+    right: 1rem;
+}
+
